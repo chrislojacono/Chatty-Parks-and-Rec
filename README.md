@@ -31,7 +31,4 @@ THis was a group project to test our skills with the Javascript we had learned w
 ## Site Link/Deploy Status
 
 
-## Screenshots
-![Screen Shot 2020-09-16 at 2 06 43 PM](https://user-images.githubusercontent.com/66916708/93381220-f66c6a00-f825-11ea-8f2f-f159198e368a.png)
-![Screen Shot 2020-09-16 at 2 07 10 PM](https://user-images.githubusercontent.com/66916708/93381224-f9675a80-f825-11ea-9cc9-0a30675c89d1.png)
 
