@@ -59,7 +59,13 @@ module.exports = {
       filename: "[name].css",
       chunkFilename: "[id].css"
     }),
-    new Dotenv(),
+    new Dotenv( {     path: '.env', 
+    safe: true, 
+    allowEmptyValues: true, 
+    systemvars: true, 
+    silent: true, 
+    defaults: false 
+  }),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery"
