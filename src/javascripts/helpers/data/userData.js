@@ -16,8 +16,6 @@ const users = [
   { id: 'user6', name: 'Tom Haverford', img: `${Tom}` },
   { id: 'user7', name: 'Donna Meagle', img: `${Donna}` },
   { id: 'user8', name: 'Pawnee Citizen', img: `${Pawnee}` },
-
-
 ];
 
 const getUsers = () => users;
