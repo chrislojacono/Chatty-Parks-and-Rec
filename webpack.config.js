@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-const Dotenv = require('dotenv-webpack');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
@@ -59,13 +58,6 @@ module.exports = {
       filename: "[name].css",
       chunkFilename: "[id].css"
     }),
-    new Dotenv( {     path: '.env', 
-    safe: true, 
-    allowEmptyValues: true, 
-    systemvars: true, 
-    silent: true, 
-    defaults: false 
-  }),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery"

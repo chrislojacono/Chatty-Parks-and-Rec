@@ -1,10 +1,11 @@
 import data from '../helpers/data/messageData';
 import storage from '../helpers/data/localStorage';
+import Jean1 from '../../assets/images/jean-ralphio.png';
 
 const onClear = () => {
   $('#messageDisplay').html(`
     <div class="clear-message-display">
-      <img src="images/jean-ralphio.png">
+      <img src=${Jean1}>
       <h3>"They All Gone Baby!"</h3>
     </div>
   `);
